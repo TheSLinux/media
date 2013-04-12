@@ -14,4 +14,7 @@ commercial purpose.
 
 ## List of files
 
-* `logo.svg`: The official logo of `TheSLinux`
+* `logo.svg`: The official logo of `TheSLinux`. This logo is using the
+  font `Black Chancery` by `Doug Miles`. The font is known to be used
+  freely for commercial purpose and it can be downloaded from
+  http://www.1001fonts.com/blackchancery-font.html
