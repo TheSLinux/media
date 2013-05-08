@@ -24,3 +24,17 @@ commercial purpose.
 * `tsl.svg`: A `short` version of our logo, that contains the main
   characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
   We use the secondary color from the `scheme0`
+
+
+## How to get bitmap version
+
+There are many ways to get a bitmap version from the source `.svg`.
+Because we are using `Inkscape` to edit the source file, you can use
+the program's export function, or something like
+
+````
+inkscape -z -e output.png -w 1024 logo.svg
+````
+
+You only need to specify the width `-w 1024` because the height will be
+calculated automatically. Replace `1024` with your input.
