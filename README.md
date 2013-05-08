@@ -20,3 +20,7 @@ commercial purpose.
   http://www.1001fonts.com/blackchancery-font.html .
   _(If you think this font may cause any problem with our license system,
   feel free to let us now and/or dicuss on `TheSLinux` lists.)_
+
+* `tsl.svg`: A `short` version of our logo, that contains the main
+  characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
+  We use the secondary color from the `scheme0`
