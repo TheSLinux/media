@@ -25,8 +25,12 @@ commercial purpose.
   characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
   We use the secondary color from the `scheme0`
 
+## Color palette
 
-## How to get bitmap version
+We use a common color palette (scheme) for all media files. Our first
+scheme is **scheme0** that can be found on [color-scheme0.html](color-scheme0.html).
+
+## How to get a bitmap version
 
 There are many ways to get a bitmap version from the source `.svg`.
 Because we are using `Inkscape` to edit the source file, you can use
