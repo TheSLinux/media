@@ -1,16 +1,6 @@
 ## Purpose
 
 This repository contains some media files for the project `TheSLinux`.
-Each files should embed license information in its metadata fields
-and you can view them by using the tool `exiftool` as below
-_(or any tool that can read `exif` data)_
-
-````
-exiftool logo.svg
-````
-
-In most cases, the licenses don't allow you to use the work for any
-commercial purpose.
 
 ## List of files
 
@@ -25,6 +15,8 @@ commercial purpose.
   characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
   We use the secondary color from the `scheme0`
 
+* `color-scheme0.html`: The color palette
+
 ## Color palette
 
 We use a common color palette (scheme) for all media files. Our first
@@ -36,9 +28,23 @@ There are many ways to get a bitmap version from the source `.svg`.
 Because we are using `Inkscape` to edit the source file, you can use
 the program's export function, or something like
 
-````
-inkscape -z -e output.png -w 1024 logo.svg
-````
+    inkscape -z -e output.png -w 1024 logo.svg
 
 You only need to specify the width `-w 1024` because the height will be
 calculated automatically. Replace `1024` with your input.
+
+## License
+
+Each files should embed license information in its metadata fields
+and you can view them by using the tool `exiftool` as below
+_(or any tool that can read `exif` data)_
+
+    exiftool logo.svg
+
+In most cases, the licenses don't allow you to use the work for any
+commercial purpose.
+
+If the file doesn't embed any license information, it is implicitly
+distributed under the license [CC BY-NC-ND 3.0][by-nc-nd].
+
+[by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/3.0/
