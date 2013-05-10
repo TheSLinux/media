@@ -35,7 +35,7 @@ calculated automatically. Replace `1024` with your input.
 
 ## License
 
-Each files should embed license information in its metadata fields
+Each file should embed license information in its metadata fields
 and you can view them by using the tool `exiftool` as below
 _(or any tool that can read `exif` data)_
 
