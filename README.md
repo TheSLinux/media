@@ -13,9 +13,9 @@ This repository contains some media files for the project `TheSLinux`.
 
 * `tsl.svg`: A `short` version of our logo, that contains the main
   characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
-  We use the secondary color from the `scheme0`
+  We use the primary color from the `scheme0`.
 
-* `color-scheme0.html`: The color palette
+* `color-scheme0.html`: Our main color palette. See below.
 
 ## Color palette
 
