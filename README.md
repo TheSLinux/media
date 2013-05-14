@@ -17,7 +17,7 @@ This repository contains some media files for the project `TheSLinux`.
 
 * `color-scheme0.html`: Our main color palette. See below.
 
-* `bin/favicon-ico-creator.sh`: A Bash script that generate a multiple
+* `bin/favicon-ico-creator.sh`: A Bash script that generates a multiple
   resolution file `favicon.ico` to show on browsers' address bar.
 
 ## Color palette
