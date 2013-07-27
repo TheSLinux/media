@@ -5,8 +5,9 @@
 # Author : Anh K. Huynh
 # Date   : 2013 May 14th
 # License: GPL v2
-# Ref.   : https://gist.github.com/pfig/1808188
-
+# Ref.   : https://gist.github.com/pfig/1808188 (not really work)
+# Ref.   : http://www.imagemagick.org/Usage/thumbnails/#favicon
+#
 # The contents of the original script https://gist.github.com/pfig/1808188
 #
 # convert source-WxW.png -resize 256x256 -transparent white favicon-256.png
@@ -19,7 +20,7 @@
 #
 
 _I_SOURCE="${0%/*}/../tsl.svg"
-for _size in 16 32 64 128 256; do
+for _size in 16 32 48 64; do
   (( _res = 5 * _size ))
   (( _res = _res / 2 ))
 
@@ -30,5 +31,10 @@ for _size in 16 32 64 128 256; do
     tsl.svg
 done
 
-convert tmp-tsl-{16,32,64,128,256}.png -colors 256 favicon.ico
-rm -f tmp-tsl-{16,32,64,128,256}.png
+convert \
+  tmp-tsl-{16,32,48,64}.png \
+  -colors 256 \
+  -alpha remove \
+  favicon.ico
+echo >&2 ":: New .ico file was written to 'favicon.ico'"
+[[ ${CLEAN} == "no" ]] || rm -fv tmp-tsl-[0-9]*.png
