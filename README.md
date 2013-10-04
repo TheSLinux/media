@@ -23,7 +23,10 @@ This repository contains some media files for the project `TheSLinux`.
 ## Color palette
 
 We use a common color palette (scheme) for all media files. Our first
-scheme is **scheme0** that can be found on [color-scheme0.html](color-scheme0.html).
+scheme is **scheme0** that can be found on
+  [color-scheme0.html](color-scheme0.html) _(HTML source)_,
+and can be viewed online at
+  http://theslinux.org/doc/homepage/color/scheme0/ .
 
 ## How to get a bitmap version
 
