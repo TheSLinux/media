@@ -1,19 +1,18 @@
 ## Purpose
 
-This repository contains some media files for the project `TheSLinux`.
+This repository contains some media files for the `TheSLinux` project.
 
 ## List of files
 
 * `logo.svg`: The official logo of `TheSLinux`. This logo is using the
-  font `Black Chancery` by `Doug Miles`. The font can be used freely
+  `Black Chancery` font by `Doug Miles`. The font can be used freely
   for commercial purpose and it can be downloaded from
   http://www.1001fonts.com/blackchancery-font.html .
   _(If you think this font may cause any problem with our license system,
-  feel free to let us now and/or dicuss on `TheSLinux` lists.)_
+  feel free to let us now and/or dicuss on `TheSLinux`'s lists.)_
 
 * `tsl.svg`: A `short` version of our logo, that contains the main
-  characters (`T`, `S`, `L`). The first version only contains `T` and `S`.
-  We use the primary color from the `scheme0`.
+  characters (`T`, `S`, `L`). We use the primary color from `scheme0`.
 
 * `color-scheme0.html`: Our main color palette. See below.
 
