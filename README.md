@@ -19,6 +19,9 @@ This repository contains some media files for the `TheSLinux` project.
 * `bin/favicon-ico-creator.sh`: A Bash script that generates a multiple
   resolution file `favicon.ico` to show on browsers' address bar.
 
+* `s-infrastructure.vue`: VUE source file that describes our systems.
+  The output file can be found on Twitter or Facebook fan page.
+
 ## Color palette
 
 We use a common color palette (scheme) for all media files. Our first
